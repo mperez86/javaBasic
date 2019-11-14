@@ -1,0 +1,42 @@
+package main;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		// Crear un arreglo cual nos permita almacenar cien números enteros.
+		
+		int arreglo[] = new int [100];
+		
+		// Llenar el arreglo con números aleatorios.
+		
+		for (int i = 0; i < arreglo.length; i++) {
+			arreglo[i] = (int)(Math.random() * 100);
+		}
+		
+		// for each
+		int mayor = 0, menor = 100;
+		int primos[];
+		int pares[];
+		
+		for (int item : arreglo) {
+//			System.out.print(item + " ");
+			if (item > mayor)
+				mayor = item;
+			if (item < menor)
+				menor = item;
+			if (item % 2 == 0) 
+				System.out.print(item + " es primo ");
+				
+		}
+		System.out.println("");
+		
+		// Mostrar en consola el número mayor.
+		System.out.println("El número mayor es: " + mayor);
+		// Mostrar en consola el número menor
+		System.out.println("El número menor es: " + menor);
+		
+		// Mostrar en consola todos los números primos.
+
+	}
+
+}

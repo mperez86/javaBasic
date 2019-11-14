@@ -1,0 +1,21 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Modificadores de acceso
+		
+		Usuario manuel = new Usuario();
+		
+		manuel.nombre = "manuel";
+//		manuel.password = "facilito";
+		manuel.setPassword("pass");
+		
+		System.out.println(manuel.nombre);
+		System.out.println(manuel.getPassword());
+		
+		manuel.saluda();
+
+	}
+
+}

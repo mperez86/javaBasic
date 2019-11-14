@@ -1,0 +1,17 @@
+package main;
+
+public class Usuario {
+
+	// Modificadores:
+	// default
+	// public
+	// private
+	// protected
+	
+	public String nombre;
+	private String password;
+	
+	public void saluda() {
+		System.out.println("saludando a " + this.nombre);
+	}
+}

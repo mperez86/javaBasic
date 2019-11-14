@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;main.Usuario.password&apos; in &apos;main.Usuario&apos;&#x0D;&#x0A;- Original project: &apos;ModificadoresAcceso&apos;&#x0D;&#x0A;- Original element: &apos;main.Usuario.password&apos;&#x0D;&#x0A;- Getter method name: &apos;getPassword&apos;&#x0D;&#x0A;- Setter method name: &apos;setPassword&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;password&apos;" flags="589830" getter="getPassword" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;main{Usuario.java[Usuario^password" insertion="0" setter="setPassword" stamp="1573746788476" version="1.0" visibility="1"/>
+</session>

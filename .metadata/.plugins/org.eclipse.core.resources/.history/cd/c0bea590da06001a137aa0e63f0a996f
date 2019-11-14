@@ -1,0 +1,17 @@
+package main;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		// Crear un matriz de 5 x 5
+		int matriz[][] = new int [5][5];
+
+		// Llenar la matriz con números aleatorios.
+		for (int i = 0; i < matriz.length; i++) {
+			for (int j = 0; j < matriz[i].length; i++) {
+				matriz[i][j] = (int)(Math.random() * 100);
+			}
+		}
+	}
+
+}
